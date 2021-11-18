@@ -1,0 +1,93 @@
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#divbillingbtn_lg {
+		display: none;
+	}
+
+	#divbillingbtn_sm {
+		display: flex;
+	}
+
+	.responsivetbl {
+		display: block;
+	    width: 100%;
+	    overflow-x: auto;
+	}
+
+	#btnaddxservice{
+		float: left !important;
+		margin-bottom: 3px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#divbillingbtn_lg {
+		display: none;
+	}
+
+	#divbillingbtn_sm {
+		display: flex;
+	}
+
+	.responsivetbl {
+		display: inline-table;
+	    width: 100%;
+	    overflow-x: auto;
+	}
+
+	#btnaddxservice{
+		float: right !important;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#divbillingbtn_lg {
+		display: flex;
+	}
+	#divbillingbtn_sm {
+		display: none;
+	}
+	#btnaddxservice{
+		float: right !important;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#divbillingbtn_lg {
+		display: flex;
+	}
+	#divbillingbtn_sm {
+		display: none;
+	}
+
+	.responsivetbl {
+	    overflow-x: hidden;
+	}
+	#btnaddxservice{
+		float: right !important;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#divbillingbtn_lg {
+		display: flex;
+	}
+	#divbillingbtn_sm {
+		display: none;
+	}
+	.responsivetbl {
+	    overflow-x: hidden;
+	}
+	#btnaddxservice{
+		float: right !important;
+	}
+}
